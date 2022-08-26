@@ -1,7 +1,8 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: yarn
-  - command: yarn start
+  - name: demo
+    init: yarn
+    command: yarn start
 ports:
   - port: 3000
     onOpen: open-preview
